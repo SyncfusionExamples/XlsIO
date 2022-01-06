@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("FreezePanes", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Freeze Panes" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

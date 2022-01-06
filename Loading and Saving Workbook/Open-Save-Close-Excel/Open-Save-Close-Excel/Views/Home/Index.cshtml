@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("OpenSaveandCloseExcel", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Open Save and Close Excel" style="width:250px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

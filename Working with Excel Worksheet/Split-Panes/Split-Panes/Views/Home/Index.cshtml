@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("SplitPanes", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Split Panes" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

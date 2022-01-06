@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("CopyWorksheet", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Copy Worksheet" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("HideWorksheet", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Hide Worksheet" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

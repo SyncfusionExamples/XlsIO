@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("MoveWorksheet", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Move Worksheet" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

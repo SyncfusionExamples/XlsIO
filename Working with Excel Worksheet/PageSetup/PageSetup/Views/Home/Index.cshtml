@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("PageSetup", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="PageSetup Settings" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
