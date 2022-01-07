@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("HideRowColumnHeaders", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Hide Row and Column Headers" style="width:300px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

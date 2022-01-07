@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("SaveTextFile", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Save Text File" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
