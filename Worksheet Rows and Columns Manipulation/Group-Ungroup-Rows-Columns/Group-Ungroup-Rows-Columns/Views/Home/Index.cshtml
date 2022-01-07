@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("GroupRowsColumns", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Group Rows and Columns" style="width:200px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
+
+@{Html.BeginForm("UngroupRowsColumns", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Ungroup Rows and Columns" style="width:230px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}

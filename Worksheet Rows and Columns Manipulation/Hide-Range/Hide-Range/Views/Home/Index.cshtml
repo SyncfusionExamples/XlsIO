@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("HideRange", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Hide Range" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
