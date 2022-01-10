@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{Html.BeginForm("ExpandGroups", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Expand Groups" style="width:150px;height:27px" />
+        </div>
+    }
+    Html.EndForm();
+}
+
+@{Html.BeginForm("CollapseGroups", "Home", FormMethod.Get);
+    {
+        <div>
+            <input type="submit" value="Collapse Groups" style="width:150px;height:27px;margin-top:10px" />
+        </div>
+    }
+    Html.EndForm();
+}
