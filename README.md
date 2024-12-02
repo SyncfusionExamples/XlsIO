@@ -13,4 +13,4 @@ Syncfusion&reg; Excel Library (XlsIO) provides various options to easily protect
 * Run the project.
 
 ## Blog reference
-[5 Easy Ways to Protect Excel Data in C#](https://www.Syncfusion.com/blogs/post/5-easy-ways-to-protect-excel-data-in-c.aspx)
+[5 Easy Ways to Protect Excel Data in C#](https://www.syncfusion.com/blogs/post/5-easy-ways-to-protect-excel-data-in-c.aspx)
