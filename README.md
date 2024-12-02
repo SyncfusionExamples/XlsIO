@@ -1,5 +1,5 @@
 # 5 Easy Ways to Protect Excel Data in C#
-Syncfusion Excel Library (XlsIO) provides various options to easily protect and unprotect Excel documents in C# and VB.NET. This repository contains projects to accomplish them. 
+Syncfusion&reg; Excel Library (XlsIO) provides various options to easily protect and unprotect Excel documents in C# and VB.NET. This repository contains projects to accomplish them. 
 
 ## Prerequisites
 
@@ -13,4 +13,4 @@ Syncfusion Excel Library (XlsIO) provides various options to easily protect and 
 * Run the project.
 
 ## Blog reference
-[5 Easy Ways to Protect Excel Data in C#](https://www.syncfusion.com/blogs/post/5-easy-ways-to-protect-excel-data-in-c.aspx)
+[5 Easy Ways to Protect Excel Data in C#](https://www.Syncfusion&reg;.com/blogs/post/5-easy-ways-to-protect-excel-data-in-c.aspx)
